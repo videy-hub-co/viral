@@ -139,7 +139,7 @@ body{
 /* GALLERY */
 .gallery{
     display:grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:repeat(2,1fr);
     gap:10px;
     margin-top:15px;
 }
@@ -151,6 +151,7 @@ body{
     border-radius:12px;
     border:2px solid #ff2d6f;
     display:block;
+}
 }
 
 /* INFO */
@@ -173,10 +174,7 @@ body{
     width:90px;
     height:90px;
     font-size:45px;
-}
 
-.gallery{
-    grid-template-columns:repeat(2,1fr);
 }
 
 .gallery img{
@@ -262,11 +260,10 @@ atOptions = {
 <!-- GALLERY -->
 <div class="gallery">
 
-    <img src="foto1.jpg" onclick="openAd()">
-    <img src="foto2.jpg" onclick="openAd()">
-
-    <img src="foto3.jpg" onclick="openAd()">
-    <img src="foto4.jpg" onclick="openAd()">
+<img src="foto1.jpg" onclick="openAd()">
+<img src="foto2.jpg" onclick="openAd()">
+<img src="foto3.jpg" onclick="openAd()">
+<img src="foto4.jpg" onclick="openAd()">
 
 </div>
 
