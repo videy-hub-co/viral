@@ -116,29 +116,32 @@ body{
     background:#ff4d88;
 }
 
+/* GALLERY */
 .gallery{
-    display:flex;
+    display:grid;
+    grid-template-columns:repeat(4,70px);
     justify-content:center;
-    gap:8px;
+    gap:6px;
     margin-top:15px;
-    flex-wrap:wrap;
 }
 
 .gallery img{
-    width:60px;
-    height:60px;
+    width:70px;
+    height:70px;
     object-fit:cover;
-    border-radius:50%;
+    border-radius:8px;
     border:2px solid #ff2d6f;
+    display:block;
+    cursor:pointer;
 }
 
+/* INFO */
 .info{
-    margin-top:20px;
+    margin-top:30px;
     text-align:center;
     color:#aaa;
     font-size:14px;
     padding-bottom:30px;
-    width:100%;
 }
 
 /* MOBILE */
